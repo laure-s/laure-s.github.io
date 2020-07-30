@@ -1,0 +1,151 @@
+@font-face{
+	font-family: larish;
+	src:url(assets/larish.otf);
+}
+@font-face{
+	font-family: source_code;
+	src:url(assets/sourceCode.otf);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  /*cursor: none;*/
+  /*background: black;*/
+}
+a{
+	font-family: source_code;
+	text-decoration: none;
+	color:white;
+	font-size: 1em;
+	font-weight: bold;
+
+}
+/*
+input:selection {
+  color: black;
+  background: white;
+}*/
+
+.canvas_container {
+  display: block;
+  height:100%;
+  width:100%;
+  z-index:-1;
+}
+
+
+.side_title{
+	position: fixed;
+	/*top:20px;*/
+	top:0;
+	right:50px;
+	/*width:0em;	*/
+	width:0;
+	height: 100vh; 
+}
+.side_title_text{
+	/*position:relative;*/
+	color: white;
+	font-family: source_code;
+	font-size:90px;
+	/*font-size:;*/
+	writing-mode: vertical-lr;
+	margin-top:25px;
+	margin-right:0;
+	/*text-align: center;*/
+}
+.side_title:hover{
+	right:100px;
+	transition-duration: 0.1s;
+}
+
+.bottom_menu{
+	display:flex;
+	flex-direction: column-reverse;
+	position: fixed;
+	bottom:0;
+	left:0;
+}
+
+.nav_menu{
+	background-color: black;
+	padding:20px;
+	display:flex;
+	flex-direction: column;
+}
+.nav_menu a{
+	color:white;
+	font-family: source_code;
+	text-decoration: none;
+}
+
+.menu_item:hover{
+	/*text-indent: 16em;*/
+	padding-left:24px;
+	/*margin-left:20px;*/
+
+	transition-duration: 0.1s;
+
+}
+.nav_menu a.active{
+	padding-left:24px;
+}
+
+
+.explore_controller{
+	background-color: black;
+	color:white;
+	font-family: source_code;
+	padding:20px 20px 0px 20px;
+	width:310px;
+}
+.explore_title{
+	font-weight: bold;
+}
+
+input{
+	-webkit-appearance: none;
+    -moz-appearance: none;
+	color:white;
+	font-family: source_code;
+	text-decoration: none;
+	background-color: black;
+	width: 40px;
+	margin: 2px;
+}
+
+input:focus{
+		font-weight: bold;
+		outline: none;
+}
+
+canvas{
+	z-index:-1;
+	width:100vw;
+	height: 100vh;
+}
+
+.submit_button{
+	width:auto;
+}
+.submit_button:active{
+	background-color: white;
+	color:black;
+}
+.change_color_button{
+	width:auto;
+}
+.explore_text{
+	max-width:300px;
+	color:grey;
+}
+.range_comment{
+	color:grey;
+}
+
+/*.canvas_container{
+	width:100vw;
+	height:100vh;
+	z-index:-1;
+}*/

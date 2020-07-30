@@ -1,0 +1,170 @@
+@font-face{
+	font-family: larish;
+	src:url(assets/larish.otf);
+}
+@font-face{
+	font-family: source_code;
+	src:url(assets/sourceCode.otf);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  /*cursor: none;*/
+  background: black;
+}
+a{
+	text-decoration: none;
+	color:white;
+	/*font-weight: bold;*/
+	font-size: 1em;
+	cursor: pointer;
+}
+
+/*canvas {
+  display: block;
+}*/
+
+
+.side_title{
+	position: fixed;
+	/*top:20px;*/
+	top:0;
+	right:50px;
+	/*width:0em;	*/
+	width:0;
+	height: 100vh; 
+}
+.side_title_text{
+	/*position:relative;*/
+	color: white;
+	font-family: source_code;
+	font-size:90px;
+	/*font-size:;*/
+	writing-mode: vertical-lr;
+	margin-top:25px;
+	margin-right:0;
+	/*text-align: center;*/
+}
+.side_title:hover{
+	right:100px;
+	transition-duration: 0.1s;
+}
+
+.line_up_div{
+	height:100%;
+	width:90%;
+	padding-left:20px;
+	padding-top:20px;
+	z-index:0;
+}
+
+.line_up_text{
+	color: rgb(255,255,255);
+	font-family: larish !important;
+	font-size: 84px !important; 
+	margin-top: 0;
+	line-height: 1.05;
+}
+
+.c_text:hover{
+	color: cyan !important;
+}
+.m_text:hover{
+	color: magenta !important;
+}
+.y_text:hover{
+	color: yellow !important;
+}
+.r_text:hover{
+	color: red !important;
+}
+.g_text:hover{
+	color: rgb(0,255,0) !important;
+}
+.b_text:hover{
+	color: rgb(0,0,255) !important;
+}
+
+.bottom_menu{
+	display:flex;
+	flex-direction: column-reverse;
+	position: fixed;
+	bottom:0;
+	left:0;
+	background-color: black;
+	z-index:1;
+	padding:20px;
+}
+
+.nav_menu{
+	
+	/*padding-left:20px;*/
+	/*padding-bottom:20px;*/
+	display:flex;
+	flex-direction: column;
+}
+.nav_menu a{
+	color:white;
+	font-family: source_code;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.menu_item:hover{
+	/*text-indent: 16em;*/
+	padding-left:24px;
+	transition-duration: 0.1s;
+
+}
+.nav_menu a.active{
+	padding-left:24px;
+}
+
+
+.weekends_menu{
+	display:flex;
+	flex-direction: column;
+}
+.weekend1_menu{
+	display:flex;
+	flex-direction: column;
+}
+.weekend2_menu{
+	display:flex;
+	flex-direction: column;
+}
+.day_menu_item{
+	font-family: source_code;
+	font-weight: bold;
+}
+
+.day_menu_item:hover{
+	padding-left:24px;
+	transition-duration: 0.1s;
+	cursor: pointer;
+
+
+
+}
+
+.fri22_menu_item{
+	color:cyan;
+}
+.sat23_menu_item{
+	color:magenta;
+}
+.sun24_menu_item{
+	color:yellow;
+}
+.fri29_menu_item{
+	color:red;
+}
+.sat30_menu_item{
+	color:rgb(0,255,0);
+;
+}
+.sun31_menu_item{
+	color:rgb(0,0,255);
+}

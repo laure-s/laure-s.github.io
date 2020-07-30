@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="433px" height="250px" viewBox="0 0 433 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 5</title>
+    <g id="tickets-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tickets-copy-10" transform="translate(-171.000000, -165.000000)">
+            <g id="Group-5" transform="translate(171.000000, 165.000000)">
+                <polyline id="Fill-1-Copy" fill="#000000" points="433 0 0 0 0 250 433 250"></polyline>
+                <text id="/weekend_1" transform="translate(35.000000, 129.000000) rotate(90.000000) translate(-35.000000, -129.000000) " font-family="LarishNeueSemibold-Regular, Larish Neue" font-size="40" font-weight="500" letter-spacing="-0.228571429" fill="#FFFFFF">
+                    <tspan x="-80" y="145">/weekend_1</tspan>
+                </text>
+                <text id="fri_-22_05-&gt;&gt;&gt;-sun_" font-family="SourceCodeRoman-Bold, Source Code Variable" font-size="40" font-weight="bold" line-spacing="38" letter-spacing="-0.228571429">
+                    <tspan x="197" y="46" fill="#FFFFFF">fri_</tspan>
+                    <tspan x="197" y="84" fill="#FFFFFF">22_05</tspan>
+                    <tspan x="197" y="122" line-spacing="30" fill="#00FFFF">&gt;</tspan>
+                    <tspan x="220.771429" y="122" line-spacing="30" fill="#FF00FF">&gt;</tspan>
+                    <tspan x="244.542857" y="122" line-spacing="30" fill="#FFFF00">&gt;</tspan>
+                    <tspan x="276.034286" y="127.399902" line-spacing="30" fill="#FFFFFF"></tspan>
+                    <tspan x="197" y="152" fill="#FFFFFF">sun_</tspan>
+                    <tspan x="197" y="190" fill="#FFFFFF">24_05</tspan>
+                </text>
+                <rect id="Rectangle" fill="#FFFFFF" x="192" y="210" width="232" height="32"></rect>
+                <text id="/weekend_1/$135" font-family="SourceCodeRoman-Bold, Source Code Variable" font-size="22" font-weight="bold" letter-spacing="-0.125714286" fill="#000000">
+                    <tspan x="197" y="233">/weekend_1/$135</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

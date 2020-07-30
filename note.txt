@@ -1,0 +1,4 @@
+Filter line up to grey:
+1. need to create function to turn all on or off
+2. create functions to each day, check there if all are on, if yes turn off. if not keep that way they're already grey
+3. when a day is clicked and its the only one, turn the rest on

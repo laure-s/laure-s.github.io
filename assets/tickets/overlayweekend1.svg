@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="434px" height="250px" viewBox="0 0 434 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>overlayweekend1</title>
+    <g id="tickets-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tickets-copy-10" transform="translate(-170.000000, -165.000000)">
+            <g id="overlayweekend1" transform="translate(170.000000, 165.000000)">
+                <rect id="Rectangle" fill-opacity="0.75" fill="#FFFFFF" x="0" y="0" width="434" height="250"></rect>
+                <rect id="Rectangle" fill="#000000" x="193" y="210" width="232" height="32"></rect>
+                <text id="/weekend_1/$135" font-family="SourceCodeRoman-Bold, Source Code Variable" font-size="22" font-weight="bold" letter-spacing="-0.125714286" fill="#FFFFFF">
+                    <tspan x="198" y="233">/weekend_1/$135</tspan>
+                </text>
+                <g id="Group" transform="translate(295.000000, 105.000000)" stroke="#000000" stroke-linecap="square" stroke-width="6">
+                    <line x1="14" y1="0.245283019" x2="14" y2="25.754717" id="Line"></line>
+                    <line x1="13.5" y1="0.745283019" x2="13.5" y2="26.254717" id="Line" transform="translate(13.500000, 13.500000) rotate(-90.000000) translate(-13.500000, -13.500000) "></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

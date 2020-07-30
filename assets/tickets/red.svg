@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="250px" height="250px" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>red@1x</title>
+    <g id="tickets-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tickets-copy-10" transform="translate(-628.000000, -530.000000)">
+            <g id="red" transform="translate(628.000000, 530.000000)">
+                <rect id="Rectangle" fill="#FE0000" x="0" y="0" width="250" height="250"></rect>
+                <rect id="Rectangle" fill="#000000" x="9" y="210" width="232" height="32"></rect>
+                <text id="/day_pass/$50" font-family="SourceCodeRoman-Bold, Source Code Variable" font-size="22" font-weight="bold" letter-spacing="-0.125714286" fill="#FFFFFF">
+                    <tspan x="14" y="233">/day_pass/$50</tspan>
+                </text>
+                <text id="fri_-29_-05" font-family="SourceCodeRoman-Bold, Source Code Variable" font-size="64" font-weight="bold" line-spacing="61" letter-spacing="-0.365714286" fill="#000000">
+                    <tspan x="14" y="67">fri_</tspan>
+                    <tspan x="14" y="128">29_</tspan>
+                    <tspan x="14" y="189">05</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

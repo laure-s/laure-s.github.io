@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>/all_points_east/</title>
+  <link rel="stylesheet" href="tickets_style.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+  <script src="tickets.js"></script>
+
+</head>
+<body>
+   <div class="side_title">
+    <a class="side_title_text" href="/">/all_points_east/</a>
+  </div>
+
+  <p class="tickets_text">/ get you tickets now /</p>
+
+<div class="tickets_gallery_div">
+
+  <div class="ticket_item black_ticket">
+    <img src="/assets/tickets/weekend1.svg" class="ticket_img">
+    <div class="overlay_ticket_item">
+      <img src="/assets/tickets/overlayweekend1.svg" class="overlay_img">
+      </div>
+    </div>
+
+  <div class="ticket_item day1_ticket">
+    <img src="/assets/tickets/cyan.svg" class="ticket_img">
+    <div class="overlay_ticket_item">
+      <img src="/assets/tickets/overlay.svg" class="overlay_img">
+      </div>
+    </div>
+
+  <div class="ticket_item day2_ticket">
+    <img src="/assets/tickets/pink.svg" class="ticket_img">
+    <div class="overlay_ticket_item">
+      <img src="/assets/tickets/overlay.svg" class="overlay_img">
+      </div>
+    </div>
+
+  <div class="ticket_item day3_ticket">
+    <img src="/assets/tickets/yellow.svg" class="ticket_img">
+    <div class="overlay_ticket_item">
+      <img src="/assets/tickets/overlay.svg" class="overlay_img">
+      </div>
+    </div>
+
+  <div class="ticket_item white_ticket">
+    <img src="/assets/tickets/weekend2.svg" class="ticket_img">
+    <div class="overlay_ticket_item">
+      <img src="/assets/tickets/overlayweekend2.svg" class="overlay_img">
+      </div>
+    </div>
+
+  <div class="ticket_item day4_ticket">
+    <img src="/assets/tickets/red.svg" class="ticket_img">
+    <div class="overlay_ticket_item">
+      <img src="/assets/tickets/overlay.svg" class="overlay_img">
+      </div>
+    </div>
+
+  <div class="ticket_item day5_ticket">
+    <img src="/assets/tickets/green.svg" class="ticket_img">
+    <div class="overlay_ticket_item">
+      <img src="/assets/tickets/overlay.svg" class="overlay_img">
+      </div>
+    </div>
+
+  <div class="ticket_item day6_ticket">
+    <img src="/assets/tickets/blue.svg" class="ticket_img">
+    <div class="overlay_ticket_item">
+      <img src="/assets/tickets/overlay.svg" class="overlay_img">
+      </div>
+    </div>
+</div>
+
+
+<div class="bottom_menu">
+  <div class="nav_menu">
+    <a class="menu_item lineup_menu_item" href="/">/line_up</a>
+    <a class="menu_item about_menu_item" href="/about.html">/about</a> 
+    <a class="menu_item tickets_menu_item active" href="/tickets.html">/tickets</a>
+    <a class="menu_item store_menu_item" href="/store.html">/store</a>
+    <a class="menu_item explore_menu_item" href="/explore_page.html">/explore</a>
+  </div>
+<div class="cart_menu">
+    <div class="cart_title">/cart</div>
+    <div class="cart_items">
+      <form>
+        <div class="cart_item_div">
+
+          <label class = "weekend1_cart_amount" for="weekend1_cart_amount">/weekend_1/</label>
+          <input type="number" class = "weekend1_cart_amount" id="weekend1_cart_amount" name="weekend1_cart_amount" value="1" min="0">
+        </div>
+
+         <div class="cart_item_div">
+          <label class = "day1_cart_amount" for="day1_cart_amount">/day1/</label>
+          <input type="number" class = "day1_cart_amount" id="day1_cart_amount" name="day1_cart_amount" value="1" min="0">
+        </div>
+
+        <div class="cart_item_div">
+          <label class = "day2_cart_amount" for="day2_cart_amount">/day2/</label>
+          <input type="number" class = "day2_cart_amount" id="day2_cart_amount" name="day2_cart_amount" value="1" min="0">
+        </div>
+
+
+         <div class="cart_item_div">
+          <label class = "day3_cart_amount" for="day3_cart_amount">/day3/</label>
+          <input type="number" class = "day3_cart_amount" id="day3_cart_amount" name="day3_cart_amount" value="1" min="0">
+        </div>
+
+        <div class="cart_item_div">
+          <label class = "weekend2_cart_amount" for="weekend2_cart_amount">/weekend_2/</label>
+          <input type="number" class = "weekend2_cart_amount" id="weekend2_cart_amount" name="weekend2_cart_amount" value="1" min="0">
+        </div>
+
+        <div class="cart_item_div">
+          <label class = "day4_cart_amount" for="day4_cart_amount">/day4/</label>
+          <input type="number" class = "day4_cart_amount" id="day4_cart_amount" name="day4_cart_amount" value="1" min="0">
+        </div>
+
+        <div class="cart_item_div">
+          <label class = "day5_cart_amount" for="day5_cart_amount">/day5/</label>
+          <input type="number" class = "day5_cart_amount" id="day5_cart_amount" name="day5_cart_amount" value="1" min="0">
+        </div>
+
+
+         <div class="cart_item_div">
+          <label class = "day6_cart_amount" for="day6_cart_amount">/day6/</label>
+          <input type="number" class = "day6_cart_amount" id="day6_cart_amount" name="day6_cart_amount" value="1" min="0">
+        </div>
+
+      </form>
+  </div>
+    <div class="cart_total_col">
+      <div class="cart_total">total:<span class="total_amount"></span>$</div>
+      <div class="purchase_button">/purchase</div>
+    </div>
+</div>
+</body>
+</html>
