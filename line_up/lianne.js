@@ -28,11 +28,10 @@ var bandBG;
 var bandTextColor;
 
 
-
 function preload() {
   myFont = loadFont("/assets/larish.otf");
-  song = loadSound('/line_up/assets/massive_attack.mp3');
-  bandName = "massive_attack";
+  song = loadSound('/line_up/assets/lianne_la_havas.mp3');
+  bandName = "lianne_la_havas";
 
 }
 
@@ -64,7 +63,6 @@ function draw() {
 
 }
 
-
 function toggle_info(){
   if ($(".band_info").is(":visible")){
     $(".band_info").hide("fast");
@@ -74,6 +72,7 @@ function toggle_info(){
     $(".close_button").attr("src","/line_up/close_button.svg");
   }
 }
+
 
 
 function windowResized() {
@@ -92,10 +91,12 @@ function playSong(){
   if (song.isPlaying()){
     song.pause();
     $(".play_button").val("/play");  
+
   }
   else{
     song.loop();
     $(".play_button").val("/pause");
+
   }
 }
 
@@ -128,8 +129,8 @@ function noiseLineVars() {
 
       color = blackOrWhite(color);
 
-      fill(255, 255, 0); //yellow
-      stroke(0, 0, 255); //blue
+      fill(0, 255, 255); //cyan
+      stroke(255, 0, 0); //red
 
       strokeWeight(sStroke);
 
@@ -161,21 +162,24 @@ function noiseLineVars() {
 }
 
 function setupBandData(){
-    // massive attack
-  sTempo = 167;
-    sEnergy = 80;
-    sMode = 1; //vert
-    sStroke = 0;
-    rectBool = 1; //rect
-    yDistance = 3;
-    xDistance = 6;
-    rectHeight = 3;
-    rectWidth = 1.5;
-    mulVar = 5;
-    volmul = 5;
-    bandTextSize = 300;
-   bandBG=0;
-     bandTextColor = 255;
+
+
+ // // Lianne la havas
+  sTempo = 79;
+  sEnergy = 28;
+  sMode = 0;
+  sStroke = 0.8;
+  rectBool = 1; //rect //maybe change to circle
+  rectHeight = 3;  //wsa 0.5 butstroke
+  rectWidth = 8;
+  xDistance = 7;
+  yDistance = 4;
+  mulVar = 6;
+  volmul = 6;
+  bandTextSize = 300;
+  bandBG=255;
+  bandTextColor = 0;
+
 
 
 

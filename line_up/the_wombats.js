@@ -28,11 +28,10 @@ var bandBG;
 var bandTextColor;
 
 
-
 function preload() {
   myFont = loadFont("/assets/larish.otf");
-  song = loadSound('/line_up/assets/massive_attack.mp3');
-  bandName = "massive_attack";
+  song = loadSound('/line_up/assets/the_wombats.mp3');
+  bandName = "the_wombats";
 
 }
 
@@ -64,7 +63,6 @@ function draw() {
 
 }
 
-
 function toggle_info(){
   if ($(".band_info").is(":visible")){
     $(".band_info").hide("fast");
@@ -74,6 +72,7 @@ function toggle_info(){
     $(".close_button").attr("src","/line_up/close_button.svg");
   }
 }
+
 
 
 function windowResized() {
@@ -128,8 +127,8 @@ function noiseLineVars() {
 
       color = blackOrWhite(color);
 
-      fill(255, 255, 0); //yellow
-      stroke(0, 0, 255); //blue
+      fill(0, 255, 0); //green
+      stroke(255, 0, 255); //pink
 
       strokeWeight(sStroke);
 
@@ -160,23 +159,23 @@ function noiseLineVars() {
   }
 }
 
-function setupBandData(){
-    // massive attack
-  sTempo = 167;
-    sEnergy = 80;
-    sMode = 1; //vert
-    sStroke = 0;
-    rectBool = 1; //rect
-    yDistance = 3;
-    xDistance = 6;
-    rectHeight = 3;
-    rectWidth = 1.5;
-    mulVar = 5;
-    volmul = 5;
-    bandTextSize = 300;
-   bandBG=0;
-     bandTextColor = 255;
+function setupBandData(){ 
 
+// the wambats
+  sTempo = 117;
+  sEnergy = 83;
+  sMode = 1; //v
+  sStroke = 1;
+  rectBool = 0; //ellip
+  yDistance = 4;
+  xDistance = 4;
+  rectHeight = 6;
+  rectWidth = 5;
+    mulVar = 6;
+  volmul = 3;
+  bandTextSize = 300;
+       bandBG=100;
+         bandTextColor = 0;
 
 
  //apply danceability and mode

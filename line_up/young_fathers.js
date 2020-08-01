@@ -31,8 +31,8 @@ var bandTextColor;
 
 function preload() {
   myFont = loadFont("/assets/larish.otf");
-  song = loadSound('/line_up/assets/massive_attack.mp3');
-  bandName = "massive_attack";
+  song = loadSound('/line_up/assets/young_fathers.mp3');
+  bandName = "young_fathers";
 
 }
 
@@ -161,21 +161,22 @@ function noiseLineVars() {
 }
 
 function setupBandData(){
-    // massive attack
-  sTempo = 167;
-    sEnergy = 80;
-    sMode = 1; //vert
-    sStroke = 0;
-    rectBool = 1; //rect
-    yDistance = 3;
-    xDistance = 6;
-    rectHeight = 3;
-    rectWidth = 1.5;
-    mulVar = 5;
-    volmul = 5;
-    bandTextSize = 300;
-   bandBG=0;
-     bandTextColor = 255;
+  
+// young fathers
+   sTempo = 130;
+   sEnergy = 75;
+   sMode = 1; //ver
+   sStroke = 0.8;
+   rectBool = 1; //rect
+   yDistance = 5;
+   xDistance = 3;
+   rectHeight = 9;
+   rectWidth = 5;
+   mulVar = 12;
+   volmul = 3;
+   bandTextSize = 300;
+     bandBG=255;
+       bandTextColor = 0;
 
 
 

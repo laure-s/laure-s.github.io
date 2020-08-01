@@ -28,11 +28,10 @@ var bandBG;
 var bandTextColor;
 
 
-
 function preload() {
   myFont = loadFont("/assets/larish.otf");
-  song = loadSound('/line_up/assets/massive_attack.mp3');
-  bandName = "massive_attack";
+  song = loadSound('/line_up/assets/tame_impala.mp3');
+  bandName = "tame_impala";
 
 }
 
@@ -64,7 +63,6 @@ function draw() {
 
 }
 
-
 function toggle_info(){
   if ($(".band_info").is(":visible")){
     $(".band_info").hide("fast");
@@ -74,6 +72,7 @@ function toggle_info(){
     $(".close_button").attr("src","/line_up/close_button.svg");
   }
 }
+
 
 
 function windowResized() {
@@ -128,8 +127,8 @@ function noiseLineVars() {
 
       color = blackOrWhite(color);
 
-      fill(255, 255, 0); //yellow
-      stroke(0, 0, 255); //blue
+      fill(255, 0, 255); //cyan
+      stroke(0, 255, 0); //red
 
       strokeWeight(sStroke);
 
@@ -160,24 +159,22 @@ function noiseLineVars() {
   }
 }
 
-function setupBandData(){
-    // massive attack
-  sTempo = 167;
-    sEnergy = 80;
-    sMode = 1; //vert
-    sStroke = 0;
-    rectBool = 1; //rect
-    yDistance = 3;
-    xDistance = 6;
-    rectHeight = 3;
-    rectWidth = 1.5;
-    mulVar = 5;
-    volmul = 5;
-    bandTextSize = 300;
-   bandBG=0;
-     bandTextColor = 255;
-
-
+function setupBandData(){ 
+  // tame impala new
+   sTempo = 116;
+   sEnergy = 78;
+   sMode = 1;
+   sStroke = 1.5;
+   rectBool = 1; //rect
+   yDistance = 6;
+   xDistance = 3;
+   rectHeight = 8;
+   rectWidth = 10;
+   mulVar = 4;
+   volmul = 2;
+   bandTextSize = 400;
+       bandBG=0;
+         bandTextColor = 255;
 
  //apply danceability and mode
   if (sMode) {

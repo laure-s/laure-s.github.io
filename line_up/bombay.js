@@ -31,8 +31,8 @@ var bandTextColor;
 
 function preload() {
   myFont = loadFont("/assets/larish.otf");
-  song = loadSound('/line_up/assets/massive_attack.mp3');
-  bandName = "massive_attack";
+  song = loadSound('/line_up/assets/bombay_bicycle.mp3');
+  bandName = "bombay_bicycle_club";
 
 }
 
@@ -64,7 +64,6 @@ function draw() {
 
 }
 
-
 function toggle_info(){
   if ($(".band_info").is(":visible")){
     $(".band_info").hide("fast");
@@ -74,7 +73,6 @@ function toggle_info(){
     $(".close_button").attr("src","/line_up/close_button.svg");
   }
 }
-
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
@@ -96,6 +94,7 @@ function playSong(){
   else{
     song.loop();
     $(".play_button").val("/pause");
+
   }
 }
 
@@ -128,8 +127,8 @@ function noiseLineVars() {
 
       color = blackOrWhite(color);
 
-      fill(255, 255, 0); //yellow
-      stroke(0, 0, 255); //blue
+      fill(0, 255, 255); //cyan
+      stroke(255, 0, 0); //red
 
       strokeWeight(sStroke);
 
@@ -161,21 +160,23 @@ function noiseLineVars() {
 }
 
 function setupBandData(){
-    // massive attack
-  sTempo = 167;
-    sEnergy = 80;
-    sMode = 1; //vert
-    sStroke = 0;
-    rectBool = 1; //rect
-    yDistance = 3;
-    xDistance = 6;
-    rectHeight = 3;
-    rectWidth = 1.5;
-    mulVar = 5;
-    volmul = 5;
-    bandTextSize = 300;
+
+// Bombay bicycle club
+   sTempo = 117;
+   sEnergy = 80;
+   sMode = 0;
+   sStroke = 1;
+   rectBool = 1; //rect
+   rectHeight = 9; 
+   rectWidth = 3;
+   xDistance = 3;
+   yDistance = 6;
+   mulVar = 4;
+   volmul = 4;
+   bandTextSize = 200;
    bandBG=0;
-     bandTextColor = 255;
+   bandTextColor = 255;
+
 
 
 

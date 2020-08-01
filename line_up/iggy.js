@@ -31,8 +31,8 @@ var bandTextColor;
 
 function preload() {
   myFont = loadFont("/assets/larish.otf");
-  song = loadSound('/line_up/assets/massive_attack.mp3');
-  bandName = "massive_attack";
+  song = loadSound('/line_up/assets/iggy_pop.mp3');
+  bandName = "iggy_pop";
 
 }
 
@@ -64,7 +64,6 @@ function draw() {
 
 }
 
-
 function toggle_info(){
   if ($(".band_info").is(":visible")){
     $(".band_info").hide("fast");
@@ -74,7 +73,6 @@ function toggle_info(){
     $(".close_button").attr("src","/line_up/close_button.svg");
   }
 }
-
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
@@ -96,6 +94,7 @@ function playSong(){
   else{
     song.loop();
     $(".play_button").val("/pause");
+
   }
 }
 
@@ -128,8 +127,8 @@ function noiseLineVars() {
 
       color = blackOrWhite(color);
 
-      fill(255, 255, 0); //yellow
-      stroke(0, 0, 255); //blue
+      fill(255, 0, 0); //cyan
+      stroke(0, 255, 255); //red
 
       strokeWeight(sStroke);
 
@@ -161,22 +160,23 @@ function noiseLineVars() {
 }
 
 function setupBandData(){
-    // massive attack
-  sTempo = 167;
-    sEnergy = 80;
-    sMode = 1; //vert
-    sStroke = 0;
-    rectBool = 1; //rect
-    yDistance = 3;
-    xDistance = 6;
-    rectHeight = 3;
-    rectWidth = 1.5;
-    mulVar = 5;
-    volmul = 5;
-    bandTextSize = 300;
-   bandBG=0;
-     bandTextColor = 255;
 
+
+  //   // iggy pop
+   sTempo = 120;
+   sEnergy = 53;
+   sMode = 1; //ver
+   sStroke = 0;
+   rectBool = 0; //ellip
+   yDistance = 9;
+   xDistance = 5;
+   rectHeight = 10;
+   rectWidth = 2;
+     mulVar = 3;
+   volmul = 5;
+   bandTextSize = 500;
+     bandBG=100;
+       bandTextColor = 0;
 
 
  //apply danceability and mode

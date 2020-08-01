@@ -31,8 +31,8 @@ var bandTextColor;
 
 function preload() {
   myFont = loadFont("/assets/larish.otf");
-  song = loadSound('/line_up/assets/massive_attack.mp3');
-  bandName = "massive_attack";
+  song = loadSound('/line_up/assets/skepta.mp3');
+  bandName = "skepta";
 
 }
 
@@ -128,8 +128,8 @@ function noiseLineVars() {
 
       color = blackOrWhite(color);
 
-      fill(255, 255, 0); //yellow
-      stroke(0, 0, 255); //blue
+      fill(0, 0, 255); //yellow
+      stroke(255, 255, 0); //blue
 
       strokeWeight(sStroke);
 
@@ -161,22 +161,21 @@ function noiseLineVars() {
 }
 
 function setupBandData(){
-    // massive attack
-  sTempo = 167;
-    sEnergy = 80;
-    sMode = 1; //vert
-    sStroke = 0;
-    rectBool = 1; //rect
-    yDistance = 3;
-    xDistance = 6;
-    rectHeight = 3;
-    rectWidth = 1.5;
-    mulVar = 5;
-    volmul = 5;
-    bandTextSize = 300;
-   bandBG=0;
-     bandTextColor = 255;
-
+ // skepta
+  sTempo = 135;
+  sEnergy = 68;
+  sMode = 0; //hor
+  sStroke = 1;
+  rectBool = 0; //ellip
+  yDistance = 10;
+  xDistance = 5;
+  rectHeight = 10;
+  rectWidth = 5;
+    mulVar = 2;
+  volmul = 2;
+  bandTextSize = 600;
+       bandBG=0;
+         bandTextColor = 255;
 
 
  //apply danceability and mode
