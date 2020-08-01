@@ -167,3 +167,22 @@ a{
 .sun31_menu_item{
 	color:rgb(0,0,255);
 }
+
+@media only screen and (max-width: 900px) {
+body{
+	width:100vw;
+	overflow-wrap: break-word;
+}
+.side_title{
+	right:35px;
+}
+.side_title_text{
+font-size: 70px;
+	}
+.line_up_text{
+	font-size:30px !important;
+	line-height:1.1;
+}
+
+
+}
