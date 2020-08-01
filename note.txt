@@ -1,4 +1,42 @@
-Filter line up to grey:
-1. need to create function to turn all on or off
-2. create functions to each day, check there if all are on, if yes turn off. if not keep that way they're already grey
-3. when a day is clicked and its the only one, turn the rest on
+\\\\\\ iMac todos \
+
+\ Lineup: \
+- Change line up font size up to 84 or 90, 90 works well on all pages
+\
+- Center the right allpointseast
+\
+\
+
+\ About: \
+- make bigger text 90 for imac, 84 for rest
+- Address text can be margin left  50% and margin top -92px; maybe solve otherwise
+\
+\
+Store: \
+- when on vinyl filter and then socks, venial stay white and socks grey\
+-apply hover white and grey tet in the options
+- you can see the scroll bar and something weird next to the input in cart\
+-add items and their filter\
+\
+\
+
+
+
+\\\\\\ General todos \
+\
+Tickets:\
+-missing purchase button !!\
+\
+
+Store:\
+ -missing purchase button !!\
+
+Lineup:\
+- Add all artists\
+
+\Artist Page:\
+- Make left box smaller
+
+\
+-Update git hub \
+\

@@ -222,8 +222,8 @@ function noiseLineVars() {
 
 
       // let volume = mic.getLevel()*2;
-      let volume = 0;
-      // let volume = mic.getLevel() / 5;
+      // let volume = 0;
+      let volume = mic.getLevel() / 5;
 
 
       //text manipulation
@@ -238,7 +238,7 @@ function noiseLineVars() {
         // x = x + volume * gDance;
 
       }
-      pnoise = pnoise * volume * 15;
+      pnoise = pnoise * volume * 20;
       // noise = noise * bassVolume * 25;
 
       // drawing
