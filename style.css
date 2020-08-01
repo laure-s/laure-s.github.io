@@ -63,6 +63,8 @@ a{
 	color: rgb(255,255,255);
 	font-family: larish !important;
 	font-size: 84px !important; 
+		/*font-size: 7vw !important; */
+
 	margin-top: 0;
 	line-height: 1.05;
 }
@@ -168,7 +170,7 @@ a{
 	color:rgb(0,0,255);
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1100px) {
 body{
 	width:100vw;
 	overflow-wrap: break-word;
@@ -180,9 +182,9 @@ body{
 font-size: 70px;
 	}
 .line_up_text{
-	font-size:30px !important;
+	/*font-size:40px !important;*/
+		font-size:7vw !important;
+
 	line-height:1.1;
-}
-
-
+	}
 }
