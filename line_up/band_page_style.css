@@ -75,9 +75,10 @@ input:selection {
 	flex-direction: column;
 }
 .nav_menu a{
-	color:white;
-	font-family: source_code;
 	text-decoration: none;
+	color:white;
+	font-size: 16px;
+	font-weight:bold;
 }
 
 .menu_item:hover{
@@ -109,6 +110,7 @@ input{
     -moz-appearance: none;
 	color:white;
 	font-family: source_code;
+		font-size: 1em;
 	text-decoration: none;
 	background-color: black;
 	width: 40px;
@@ -133,19 +135,40 @@ canvas{
 .play_button{
 	width:auto;
 	font-weight: bold;
-		padding-right:8px;
+	padding:10px;
+	padding-right:20px;
+	background-color: white;
+	color:black;
+	border:none;
 
 }
 .play_button:active{
 	width:auto;
-	background-color: white;
-	color:black;
+	background-color: black;
+	color:white;
 }
 .close_button{
 	width:20px;
 	height:20px;
+	font-family: source_code;
+	font-size: 1em;
 	cursor:pointer;
 	position: absolute;
 	right:10px;
 	top:10px;
-	}
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+
+.side_title{
+	right:35px;
+}
+.side_title_text{
+	font-size: 70px;
+}
+
+}
+
+
