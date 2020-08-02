@@ -94,6 +94,16 @@ function draw() {
   // image(imageCanvas,0,0);
 }
 
+function toggle_info(){
+  if ($(".explore_info").is(":visible")){
+    $(".explore_info").hide("fast");
+    $(".close_button").attr("src","/line_up/open_button.svg");
+  }else{
+   $(".explore_info").show("fast");
+    $(".close_button").attr("src","/line_up/close_button.svg");
+  }
+}
+
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
   // captureCanvas.resize(windowWidth, windowHeight);
@@ -355,6 +365,11 @@ function setupCaptureCanvas(){
   capture.size(canvas.width, canvas.height);
   capture.hide();
   // captureCanvas.filter(GRAY);
+
+  // flip camera
+  captureCanvas.translate(capture.width, 0);
+  captureCanvas.scale(-1, 1);
+
   captureCanvas.image(capture, 0, 0, canvas.width, canvas.height);
 }
 

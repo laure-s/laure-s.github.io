@@ -21,11 +21,6 @@ a{
 	cursor: pointer;
 }
 
-/*canvas {
-  display: block;
-}*/
-
-
 .side_title{
 	position: fixed;
 	/*top:20px;*/
@@ -63,7 +58,6 @@ a{
 	color: rgb(255,255,255);
 	font-family: larish !important;
 	font-size: 84px !important; 
-		/*font-size: 7vw !important; */
 
 	margin-top: 0;
 	line-height: 1.05;
@@ -110,7 +104,8 @@ a{
 .nav_menu a{
 	color:white;
 	font-family: source_code;
-	font-weight: bold;
+	font-size: 16px;
+	font-weight:bold;
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -173,7 +168,6 @@ a{
 @media only screen and (max-width: 1100px) {
 body{
 	width:100vw;
-	overflow-wrap: break-word;
 }
 .side_title{
 	right:35px;
@@ -183,8 +177,8 @@ font-size: 70px;
 	}
 .line_up_text{
 	/*font-size:40px !important;*/
-		font-size:7vw !important;
-
+	font-size:8vw !important;
+	overflow-wrap: break-word;
 	line-height:1.1;
 	}
 }
