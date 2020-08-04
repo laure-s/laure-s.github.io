@@ -165,7 +165,7 @@ a{
 	color:rgb(0,0,255);
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1300px) {
 body{
 	width:100vw;
 }
