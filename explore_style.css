@@ -34,12 +34,11 @@ input:selection {
   z-index:-1;
 }
 
-
 .side_title{
 	position: fixed;
 	/*top:20px;*/
 	top:0;
-	right:50px;
+	right:38px;
 	/*width:0em;	*/
 	width:0;
 	height: 100vh; 
@@ -48,22 +47,22 @@ input:selection {
 	/*position:relative;*/
 	color: white;
 	font-family: source_code;
-	font-size:90px;
-	/*font-size:;*/
+	font-size:68px;
+	font-weight: bold;
 	writing-mode: vertical-lr;
-	margin-top:25px;
+	margin-top:20px;
 	margin-right:0;
 	/*text-align: center;*/
 }
 .side_title:hover{
-	right:100px;
+	right:80px;
 	transition-duration: 0.1s;
 }
-
 .bottom_menu{
 	display:flex;
 	flex-direction: column-reverse;
 	position: fixed;
+	font-size: 14px;
 	bottom:0;
 	left:0;
 }
@@ -73,6 +72,7 @@ input:selection {
 	padding:20px;
 	display:flex;
 	flex-direction: column;
+
 }
 .nav_menu a{
 	color:white;
