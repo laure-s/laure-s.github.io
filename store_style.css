@@ -16,7 +16,7 @@ html, body {
   padding: 0;
   /*cursor: none;*/
   background: black;
-   overflow: hidden;
+  overflow: hidden;
 }
 a{
 	text-decoration: none;
@@ -123,6 +123,7 @@ p{
 	flex-direction: row;
 	flex-wrap:wrap;
 	padding:10px;
+	overflow: hidden;
 	overflow-y: auto;
 
 	/*justify-content:center;*/
@@ -161,7 +162,6 @@ img{
 	width:260px;
 	padding:10px;
 	height:80px;
-	/*margin-bottom:5%;*/
 	font-family: source_code;
 	font-size: 15px;
 	position:absolute;

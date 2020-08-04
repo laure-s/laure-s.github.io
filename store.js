@@ -4,11 +4,15 @@ $(document).ready(function(){
   $(".shirt_option").click(show_shirt);
   $(".hat_option").click(show_hat);
   $(".vinyl_option").click(show_vinyl);
+    $(".vinyl_option").click(show_posters);
+
   
   $(".sock_plus").click(add_sock);
   $(".shirt_plus").click(add_shirt);
   $(".hat_plus").click(add_hat);
   $(".vinyl_plus").click(add_vinyl);
+    $(".poster_plus").click(add_poster);
+
 
   
   show_all();
@@ -18,6 +22,8 @@ $(document).ready(function(){
    $("#shirt_cart_amount").bind("input",update_shirt);
    $("#hat_cart_amount").bind("input",update_hat);
    $("#vinyl_cart_amount").bind("input",update_vinyl);
+   $("#poster_cart_amount").bind("input",update_poster);
+
 
    // $(".socks_cart_amount").change(update_sock);
       // $("input").change(update_sock);
@@ -35,6 +41,7 @@ $(document).ready(function(){
   $(".shirt_option").hover(hover_in_shirt, hover_out_shirt);
   $(".hat_option").hover(hover_in_hat, hover_out_hat);
   $(".vinyl_option").hover(hover_in_vinyl, hover_out_vinyl);
+  $(".posters_option").hover(hover_in_posters, hover_out_posters);
 
 
 });
@@ -44,10 +51,13 @@ var sock_amount =0;
 var shirt_amount =0;
 var hat_amount =0;
 var vinyl_amount=0;
+var poster_amount =0;
+
 var sock_price =15;
 var shirt_price=30;
 var hat_price=30;
 var vinyl_price=35;
+var poster_price=25;
 var cur_all;
 var cur_socks;
 var cur_shirt;
@@ -135,6 +145,22 @@ function show_vinyl(){
     $(".store_item").hide();
     $(".vinyl_item").show();
 }
+
+function show_posters(){
+    $(".store_filter").css("color","grey");
+    $(".posters_option").css("color","white");
+
+      cur_all = $(".shop_all_option").css("color");
+   cur_socks = $(".socks_option").css("color");
+   cur_shirt = $(".shirt_option").css("color");
+   cur_hat = $(".hat_option").css("color");
+   cur_vinyl = $(".vinyl_option").css("color");
+   cur_posters  = $(".posters_option").css("color");
+
+    $(".store_item").hide();
+    $(".vinyl_item").show();
+}
+
 function hover_all(){
     $(".store_filter").css("color","white");
     $(".store_item").show();
@@ -151,7 +177,7 @@ function clear_cart(){
 
 
 function update_total(){
-  total_amount = (sock_amount*sock_price)+(shirt_amount*shirt_price)+(hat_amount*hat_price)+(vinyl_amount*vinyl_price);
+  total_amount = (sock_amount*sock_price)+(shirt_amount*shirt_price)+(hat_amount*hat_price)+(vinyl_amount*vinyl_price)+(poster_amount*poster_price);
    $(".total_amount").text(total_amount);
   //total amount update calcuate everything
 }
@@ -202,6 +228,17 @@ function add_vinyl(){
     update_total();
 }
 
+function add_poster(){
+  poster_amount+=1;
+  if ($(".poster_cart_amount").css('display') == 'block'){
+    $(".poster_cart_amount").val(Number(poster_amount));
+  }
+  else{
+    $(".poster_cart_amount").css('display', 'block');
+  }
+    update_total();
+}
+
 function update_sock(){
     sock_amount =  Number($("#socks_cart_amount").val());
       if (sock_amount == 0){
@@ -230,6 +267,14 @@ function update_vinyl(){
     vinyl_amount =  Number($("#vinyl_cart_amount").val());
           if (vinyl_amount == 0){
       $(".vinyl_cart_amount").css('display','none');
+    }
+        update_total();
+}
+
+function update_poster(){
+    poster_amount =  Number($("#poster_cart_amount").val());
+          if (poster_amount == 0){
+      $(".poster_cart_amount").css('display','none');
     }
         update_total();
 }
@@ -313,6 +358,27 @@ function hover_in_shirt(){
 }
 
  function hover_out_vinyl(){
+   $(".shop_all_option").css("color",cur_all);
+    $(".socks_option").css("color",cur_socks);
+   $(".shirt_option").css("color",cur_shirt);
+     $(".hat_option").css("color",cur_hat);
+   $(".vinyl_option").css("color",cur_vinyl);
+  $(".posters_option").css("color",cur_posters);
+}
+
+ function hover_in_posters(){
+   cur_all = $(".shop_all_option").css("color");
+   cur_socks = $(".socks_option").css("color");
+   cur_shirt = $(".shirt_option").css("color");
+   cur_hat = $(".hat_option").css("color");
+   cur_vinyl = $(".vinyl_option").css("color");
+   cur_posters  = $(".posters_option").css("color");
+
+   $(".store_filter").css("color","grey");
+   $(".posters_option").css("color","white");
+}
+
+ function hover_out_posters(){
    $(".shop_all_option").css("color",cur_all);
     $(".socks_option").css("color",cur_socks);
    $(".shirt_option").css("color",cur_shirt);
