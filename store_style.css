@@ -16,6 +16,7 @@ html, body {
   padding: 0;
   /*cursor: none;*/
   background: black;
+   overflow: hidden;
 }
 a{
 	text-decoration: none;
