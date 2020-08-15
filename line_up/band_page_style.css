@@ -101,6 +101,7 @@ input:selection {
 	font-family: source_code;
 	padding:20px 20px 0px 20px;
 	width:310px;
+	font-size: 14px;	
 }
 .band_title{
 	font-weight: bold;
