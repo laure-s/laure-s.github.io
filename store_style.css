@@ -67,7 +67,7 @@ a{
 .nav_menu{
 	
 	/*padding-left:20px;*/
-	/*padding-bottom:20px;*/
+	padding-bottom:20px;
 	display:flex;
 	flex-direction: column;
 	padding-right: 20px;
@@ -132,8 +132,8 @@ p{
 }
 
 .store_item{
-	width:300px;
-	height:420px;
+	width:340px;
+	height:430px;
 	margin:10px;
 	background-color: white;
 	position:relative;
@@ -215,8 +215,9 @@ input:focus{
 	font-family: source_code;
 	width:500px;
 	height:auto;
-	padding:10px;
-	margin-bottom: 10px;
+	padding:20px;
+	padding-bottom:0px;
+	margin-bottom: 20px;
 
 	/*margin-left:30px;*/
 }
@@ -260,8 +261,8 @@ label{
 	cursor: pointer;
 	background-color: black;
 	color:white;
-	margin-top:10px;
-	padding:10px;
+	margin-top:5px;
+	padding:8px;
 }
 .purchase_button:hover{
 	font-weight: bold;

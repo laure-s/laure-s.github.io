@@ -79,6 +79,7 @@ input:selection {
 .nav_menu a{
 	color:white;
 	font-family: source_code;
+	font-weight:bold;
 	text-decoration: none;
 }
 
