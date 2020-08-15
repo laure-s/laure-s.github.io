@@ -61,7 +61,7 @@ a{
 	background-color: black;
 	z-index:1;
 	padding:20px;
-	padding-bottom: 10px;
+	padding-bottom: 0px;
 }
 
 .nav_menu{
@@ -79,6 +79,8 @@ a{
 	font-weight: bold;
 	text-decoration: none;
 	cursor: pointer;
+		font-size: 14px;
+
 }
 
 .menu_item:hover{
@@ -213,7 +215,7 @@ input:focus{
 	font-family: source_code;
 	width:500px;
 	height:auto;
-	padding:20px;
+	padding:10px;
 	margin-bottom: 10px;
 
 	/*margin-left:30px;*/
