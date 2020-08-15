@@ -190,6 +190,8 @@ input:focus{
 	width:500px;
 	height:auto;
 	padding:20px;
+	padding-bottom:0px;
+
 }
 
 .cart_items{
