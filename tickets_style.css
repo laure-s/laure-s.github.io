@@ -224,8 +224,8 @@ label{
 	cursor: pointer;
 	background-color: black;
 	color:white;
-	margin-top:10px;
-	padding:10px;
+	margin-top:5px;
+	padding:8px;
 }
 .purchase_button:hover{
 	font-weight: bold;
