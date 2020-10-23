@@ -25,7 +25,7 @@ a{
 	position: fixed;
 	/*top:20px;*/
 	top:0;
-	right:38px;
+	right:50px;
 	/*width:0em;	*/
 	width:0;
 	height: 100vh; 
@@ -34,15 +34,15 @@ a{
 	/*position:relative;*/
 	color: white;
 	font-family: source_code;
-	font-size:68px;
+	font-size:90px;
 	font-weight: bold;
 	writing-mode: vertical-lr;
 	margin-top:20px;
-	margin-right:0;
+	margin-right:0px;
 	/*text-align: center;*/
 }
 .side_title:hover{
-	right:80px;
+	right:95px;
 	transition-duration: 0.1s;
 }
 
@@ -57,7 +57,7 @@ a{
 .line_up_text{
 	color: rgb(255,255,255);
 	font-family: larish !important;
-	font-size: 60px !important; 
+	font-size: 80px !important; 
 
 	margin-top: 0;
 	line-height: 1.05;
@@ -170,13 +170,12 @@ a{
 @media only screen and (min-width: 1600px) {
 
 .side_title{
-	right:25px;
+	right:50px;
 }
 .side_title_text{
 font-size: 90px;
 	}
 .line_up_text{
-	/*font-size:40px !important;*/
 	font-size:84px !important;
 	}
 }
@@ -192,7 +191,7 @@ body{
 font-size: 70px;
 	}
 .line_up_text{
-	/*font-size:40px !important;*/
+	font-size:40px !important;
 	font-size:7.5vw !important;
 	overflow-wrap: break-word;
 	line-height:1.1;

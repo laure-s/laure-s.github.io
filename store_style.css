@@ -31,7 +31,7 @@ a{
 	position: fixed;
 	/*top:20px;*/
 	top:0;
-	right:38px;
+	right:50px;
 	/*width:0em;	*/
 	width:0;
 	height: 100vh; 
@@ -40,7 +40,7 @@ a{
 	/*position:relative;*/
 	color: white;
 	font-family: source_code;
-	font-size:68px;
+	font-size:90px;
 	font-weight: bold;
 	writing-mode: vertical-lr;
 	margin-top:20px;
@@ -48,7 +48,7 @@ a{
 	/*text-align: center;*/
 }
 .side_title:hover{
-	right:80px;
+	right:105px;
 	transition-duration: 0.1s;
 }
 
@@ -112,7 +112,7 @@ p{
 .store_options_text{
 	color:white;
 	font-family: larish !important;
-	font-size: 60px ; 
+	font-size: 80px ; 
 	margin-top: 0px;
 	margin-bottom: 10px;
 	line-height: 1.05;
